@@ -1,0 +1,384 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f6f5f2;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  padding-left: 20px;
+  color: #1c4865;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+header {
+  padding: 20px 130px;
+}
+nav {
+  float: left;
+}
+.logo {
+  width: 50%;
+}
+header form {
+  float: right;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.clear-float {
+  clear: both;
+}
+.header-input {
+  padding: 8px 17px;
+}
+.header-submit {
+  width: 40px;
+  height: 36px;
+  background-color: #9270b9;
+  border: none;
+  margin-left: -4px;
+  position: absolute;
+}
+.secondary-menu {
+  background-color: #9270b9;
+  padding: 13px;
+  text-align: center;
+}
+.secondary-menu ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+.secondary-menu ul li {
+  display: inline;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+#slider {
+  display: flex;
+  padding: 50px 150px;
+}
+.slider {
+  padding-left: 3px;
+}
+#slider-featured {
+  color: white;
+  background-color: black;
+  width: 220px;
+  font-family: sans-serif;
+  height: 140px;
+}
+#slider-featured {
+  font-size: 22px;
+  text-align: left;
+  padding-top: 9px;
+  padding-left: 20px;
+}
+.grid-container {
+  padding: 40px 130px;
+  display: grid;
+  grid-template-columns: 49% 24% 26%;
+  column-gap: 10px;
+}
+.grid-item-1 {
+  width: 98%;
+}
+.grid-item-2 {
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+}
+.content {
+  margin: 30px;
+  background-color: #fff;
+}
+
+.card-img img {
+  width: 99%;
+  cursor: pointer;
+}
+.content h2:hover {
+  text-decoration: underline;
+}
+.grid-container h2 a {
+  font-size: 22px;
+  font-family: sans-serif;
+  color: #9270b9;
+  text-decoration: none;
+  line-height: 28px;
+}
+.card {
+  background-color: #fff;
+}
+.bottom-card-content {
+  border-top: 1px solid #f1f1f1;
+  opacity: 0.8;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.content p {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #94979c;
+  font-weight: 200;
+  padding: 10px 0 0 0;
+}
+.date {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #94979c;
+  float: left;
+  padding: 0 15px 0 0;
+}
+.views,
+.comments {
+  display: inline;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #94979c;
+  float: left;
+  padding: 0 15px 0 0;
+}
+.read-more {
+  float: right;
+  border-bottom: 1px solid #9270b9;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 0 0 0 0;
+}
+.read-more a {
+  font-size: 14px;
+  color: #9270b9;
+  font-weight: bold;
+  text-decoration: none;
+}
+.main-content {
+  margin-bottom: 35px;
+}
+.clear {
+  clear: both;
+  display: block;
+}
+.gif img {
+  border: 1px solid blue;
+  text-align: center;
+  width: 80%;
+}
+.gif {
+  text-align: center;
+  background-color: #fff;
+}
+.under-gif-div {
+  background-color: #222222;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.under-gif-div h4 {
+  padding: 8px;
+}
+.under-gif-div h4 i {
+  float: right;
+  border-style: solid;
+  border-width: 14px 5px 14px 10px;
+  margin: -8px -15px -10px 3px;
+  height: 4px;
+  width: 0px;
+  border-color: #222222 transparent #222222 #222222;
+}
+.second-grid-img img {
+  padding-right: 5px;
+  float: none;
+}
+.wrapper {
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.photo-grid-2 {
+  text-align: center;
+  margin-top: 6px;
+}
+.heading-grid-nr2 {
+  color: #9270b9;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 20px;
+  border-bottom: 1px solid rgba(235, 232, 232, 0.925);
+}
+.img-wrapper {
+  float: left;
+  padding-right: 15px;
+}
+.text-content {
+  text-align: left;
+}
+.text-content a {
+  text-decoration: none;
+  color: #9270b9;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+.content-wrapper {
+  padding: 20px;
+  border-bottom: 1px solid rgba(235, 232, 232, 0.925);
+}
+.container-section {
+  background-color: #fff;
+  padding-top: 17px;
+}
+.heading-grid-2 h4 {
+  margin: 0;
+}
+.changed-text {
+  color: #9270b9;
+  text-decoration: none;
+}
+.changed-text:hover {
+  text-decoration: underline;
+}
+.second-grid-content img {
+  padding-right: 4px;
+}
+.second-grid-content p {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #7e7f81;
+  line-height: 22px;
+}
+.empty {
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.grid-3-list {
+  list-style-type: square;
+  line-height: 24px;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.third-content {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.social-logo {
+  width: 12%;
+}
+.social-logo-twitter,
+.social-logo-youtube {
+  width: 22%;
+}
+.flex-list {
+  display: flex;
+  text-align: center;
+  margin-right: 25px;
+}
+.info-text {
+  font-size: 11px;
+}
+.social ul li {
+  display: inline;
+  margin-right: 15px;
+}
+.third-content form {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.third-content form img {
+  width: 13px;
+}
+.img-countries {
+  text-align: center;
+}
+.img-countries img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.last-img-section3 {
+  width: 80%;
+}
+.bottom-bar {
+  background-color: #9270b9;
+  padding: 8px;
+  text-align: center;
+}
+.bottom-bar ul li {
+  display: inline;
+}
+.bottom-bar ul li a i {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 30px;
+}
+footer {
+  background-image: url("images/footer-bg.png");
+}
+.copyright {
+  text-align: center;
+  color: #999;
+  border-top: 5px solid rgba(241, 241, 241, 0.8);
+  padding-top: 22px;
+  padding-bottom: 40px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.copyright p {
+  display: inline;
+}
+.copyright a {
+  border-bottom: 1px solid #9270b9;
+}
+.bottom-bar ul li a {
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  header form {
+    display: none;
+  }
+  .secondary-menu {
+    display: none;
+  }
+  .slider {
+    width: 25%;
+  }
+  header {
+    padding: 0;
+  }
+  nav {
+    padding: 0;
+  }
+  #slider {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .slider {
+    width: 100%;
+  }
+  .grid-container {
+    display: block;
+    padding: 0;
+  }
+  .grid-item-3 {
+    width: 95%;
+  }
+}
