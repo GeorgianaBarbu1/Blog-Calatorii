@@ -1,7 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #f6f5f2;
+  background-color: #b0cbd3;
 }
 nav ul {
   list-style-type: none;
@@ -181,10 +181,11 @@ header form {
   font-weight: normal;
   text-transform: uppercase;
 }
-.under-gif-div h4 {
+.under-gif-div h1 {
   padding: 8px;
+  font-size: 14px;
 }
-.under-gif-div h4 i {
+.under-gif-div h1 i {
   float: right;
   border-style: solid;
   border-width: 14px 5px 14px 10px;
